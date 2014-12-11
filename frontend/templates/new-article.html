@@ -1,0 +1,25 @@
+<div class="large-12 columns">
+	<h5>Create New Article</h5>
+</div>
+	<form novalidate="novalidate">
+        <div class="control-group">
+            <label class="control-label" for="articleTitle">Title:</label>
+            <div class="controls">
+                <input type="text" id="articleTitle" ng-model="article.title"/>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="articleBody">Body:</label>
+            <div class="controls">
+                <textarea rows="10" id="articleBody" ng-model="article.body"> </textarea>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="controls">
+                <a ng-click="createNewArticle()" class="button">Create</a>
+            </div>
+        </div>
+    </form>
+
+</div>
+

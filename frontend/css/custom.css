@@ -1,0 +1,51 @@
+@media only screen and (max-width: 40em) { 
+	.sixteen-day-forecast{
+		border-bottom: 1px solid #CCC;
+	}
+}
+
+@media only screen and (min-width: 40.063em) {
+	.current-weather .max-min-col{
+		border-left: 1px solid #ccc;
+	}
+	
+	.sixteen-day-forecast{
+		border-right: 1px solid #CCC;
+		border-bottom: 1px solid #CCC;
+	}
+
+}
+
+.city-name{
+	text-transform: capitalize;
+}
+
+.main-temp{
+	font-size: 2.5em;
+}
+
+.max-min-temp{
+	font-size:1.5em;
+}
+.max-min-temp.max{
+	color: red;
+}
+
+.max-min-temp.min{
+	color: green;
+}
+
+.celsius-sign{
+	vertical-align: top;
+}
+
+.record-date, .sixteen-day-forecast .humidity{
+	font-size: .8em;
+	color: #ccc;
+}
+
+.description{
+	font-size:1.2em;
+	color: #ccc;
+}
+

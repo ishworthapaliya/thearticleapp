@@ -1,0 +1,11 @@
+{
+	"name": "restful",
+	"main": "server.js",
+	"dependencies":{
+		"body-parser": "latest",
+		"express": "latest",
+		"mongoose": "latest",
+		"node-restful": "latest"
+	} 
+
+}
